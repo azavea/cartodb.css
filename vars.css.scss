@@ -33,7 +33,10 @@ $cBlack:                 $cGray0;
 
 $cOrange:                #FF9900;
 $cBlue:                  #2483B4;
+$cGreenText:             #177B57;
+$cGreenLight:            #68ad68;
+$cGreenDark:             #177B57;
 
-$link-color:             #397DBA;
-$link-hover-color:       #2B6191;
+$link-color:             $cGreenLight;
+$link-hover-color:       $cGreenDark;
 $button-bkg-color:       #F2F2F2;

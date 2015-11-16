@@ -193,7 +193,7 @@
     color:white;
     text-shadow:0 1px 0 #2E577B;
     background:#53A0DA; // IE
-    @include background(linear-gradient(#53A0DA,#3B7EBC));
+    @include background(linear-gradient(#53A0DA,$cGreenLight));
     @include border-radius(3px);
     border:1px solid #29557B;
     letter-spacing:-1px;
@@ -204,7 +204,7 @@
 
     // Hover
     &:hover {
-      background:#3B7EBC; // IE
+      background:$cGreenLight; // IE
       @include background(linear-gradient(#53A0DA,#3470A9));
       text-decoration:none;
       cursor:pointer;
@@ -227,7 +227,7 @@
       &:hover, &:active, &:focus {
         background:#53A0DA; // IE
         color:white;
-        @include background(linear-gradient(#53A0DA,#3B7EBC));
+        @include background(linear-gradient(#53A0DA,$cGreenLight));
         cursor:default;
       }
     }

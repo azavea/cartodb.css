@@ -34,10 +34,10 @@ div.search {
       font-family: $text-fonts2;
       letter-spacing:0;
 
-      &::-webkit-input-placeholder { font-style: italic; color: #397DB8; }
-      &:-moz-placeholder           { font-style: italic; color: #397DB8; }
-      &::-moz-placeholder          { font-style: italic; color: #397DB8; }
-      &:-ms-input-placeholder      { font-style: italic; color: #397DB8; }
+      &::-webkit-input-placeholder { font-style: italic; color: $cGreenLight; }
+      &:-moz-placeholder           { font-style: italic; color: $cGreenLight; }
+      &::-moz-placeholder          { font-style: italic; color: $cGreenLight; }
+      &:-ms-input-placeholder      { font-style: italic; color: $cGreenLight; }
 
     }
   }
