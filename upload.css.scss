@@ -236,7 +236,7 @@
         overflow: hidden;
         @include inline-block();
         margin:0 0 0 5px;
-        color:#397DBA;
+        color:$cGreenLight;
         text-decoration:underline;
         font-style:italic;
         font-size:15px!important;

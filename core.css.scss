@@ -18,17 +18,17 @@
   body {background:white; min-width: $w; font-family: $text-fonts; font-size: 15px;}
   a {
     font-family:$text-fonts;
-    color:#2483B4;
+    color: $cGreenText;
     text-decoration:none;
     &:hover {text-decoration:underline; color:#333}
     &.disabled { @include opacity(0.3); &:hover {color:$link-color; text-decoration:none; cursor:default;}}
     &.tag {
       padding:6px 7px;
       font:normal 15px $text-fonts2;
-      color:#397DB9;
+      color:$cGreenDark;
       background:#E1ECF5;
       @include border-radius(2px);
-      border:1px solid #397DBA;
+      border:1px solid $cGreenDark;
       @include box-shadow(rgba(0,0,0,0.12) 0 0 2px 2px);
     }
   }
